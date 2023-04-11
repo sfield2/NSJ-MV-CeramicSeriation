@@ -1,2 +1,15 @@
 # NSJ_MV_CeramicSeriation
-Seriation of ceramics from Northern San Juan/Mesa Verde using calibration data from Village Ecodynamics Project (VEP) via correspondence analysis and application of Brainerd-Robinson for defining occupation. 
+
+This directory contains code written in R for:
+1) creating a seriation of Northern San Juan/Mesa Verde ceramics using correspondence analysis and calibration site data from the Village Ecodynamics Project (VEP) 
+2) using the seriation to determine site occupation of sample/survey/excavation ceramic data using a Brainerd-Robinson coefficient of similarity (Peeples 2011)
+3) building a time series of occupation 
+
+## Data
+All data used for the seriation and example sample data from Mesa Verde National Park (Lancaster & other citations) are provided in folder entitled "DATA". 
+
+## Analysis
+
+Script used for analysis is an R script, entitled "ANALYSIS", that contains all necessary commands for building the seriation, applying it to sample data, and building a time series.
+
+If you have questions, email Sean Field (sfield2@nd.edu).
