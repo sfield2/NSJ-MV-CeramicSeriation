@@ -19,6 +19,7 @@ theme_set(theme_bw())
 # If you are not building the calibration seriation, no need to download file "calib"
 calib <- read.csv("./DATA/VEP_calibration_sitecounts.csv",header=T,fileEncoding = 'UTF-8-BOM')
 
+# Sample data derived from published excavation record of Site 5MV499, 5MV866, and 5MV875 (Lister 1964, 1965, 1966).
 df<- read.csv("./DATA/Sample_counts.csv",header=T,fileEncoding = 'UTF-8-BOM')
 df <- df[,c(1,3:65)]
 
@@ -183,20 +184,17 @@ dev.off()
 
 ####  CITATIONS
 
-# Lister, 
-# 1964
+# Lister, R.H. (1964). Contributions to Mesa Verde Archaeology: I, Site 499, Mesa Verde National Park, Colorado. 
+# University of Colorado Studies, Series in Anthropology No. 9. Boulder, CO. 
 
+# Lister, R. H. (1965). Contributions to Mesa Verde Archaeology: II, Site 875, Mesa Verde National Park, Colorado. 
+# University of Colorado Studies, Series in Anthropology No. 11. Boulder, CO. 
 
-# Lister, 
-# 1965
+# Lister, R.H. (1966). Contributions to Mesa Verde Archaeology: III, Site 866 and the Cultural Sequence at Four Villages 
+# in the Far View Group, Mesa Verde National Park, Colorado. University of Colorado Studies, Series in Anthropology No. 12, Boulder, CO.
 
-# Lister,
-# 1966 
-
-# Peeples, Matthew A.
-# 2011 R Script for Calculating the Brainerd-Robinson Coefficient of Similarity 
-# and Assessing Sampling Error. Electronic document
-# http://www.mattpeeples.net/br.html, accessed March 17, 2023.
+# Peeples, Matthew A. (2011) R Script for Calculating the Brainerd-Robinson Coefficient of Similarity 
+# and Assessing Sampling Error. Electronic document. http://www.mattpeeples.net/br.html, accessed March 17, 2023.
 
 
 
