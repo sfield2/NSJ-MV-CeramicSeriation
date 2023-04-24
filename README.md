@@ -16,4 +16,5 @@ Script used for analysis is an R script, entitled "ANALYSIS", that contains all 
 Glowacki, D. M. and Field, S. F. (2023) R Script for NSJ/MV Ceramic Seriation. Electonic document. github.com/sfield2/NSJ_MV_CeramicSeriation, accessed (INSERT DATE ACCESSED).
 DOI: Lenovo Link
 
+##*NOTE: This method has not been published in a peer-reviewed venue.
 If you have questions, email Sean Field (sfield2@nd.edu).
