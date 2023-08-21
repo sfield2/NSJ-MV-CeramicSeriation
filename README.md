@@ -17,4 +17,4 @@ Glowacki, D. M. and Field, S. F. (2023) R Script for NSJ/MV Ceramic Seriation. E
 DOI: Lenovo Link
 
 ## IMPORTANT NOTE: This method has not been published in a peer-reviewed venue.
-If you have questions, email Sean Field (sfield2@nd.edu).
+If you have questions, email Sean Field (Sean.Field@uwyo.edu).
