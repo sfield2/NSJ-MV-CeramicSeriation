@@ -13,7 +13,7 @@ All data used for the seriation and example sample data from Mesa Verde National
 Script used for analysis is an R script, entitled "ANALYSIS", that contains all necessary commands for building the seriation, applying it to sample data, and building a time series.
 
 ## Citing
-Glowacki, D. M. and Field, S. F. (2023) R Script for NSJ/MV Ceramic Seriation. Electonic document. github.com/sfield2/NSJ_MV_CeramicSeriation, accessed (INSERT DATE ACCESSED).
+Glowacki, D. M. and Field, S. (2023) R Script for NSJ/MV Ceramic Seriation. Electonic document. github.com/sfield2/NSJ_MV_CeramicSeriation, accessed (INSERT DATE ACCESSED).
 DOI: Lenovo Link
 
 ## IMPORTANT NOTE: This method has not been published in a peer-reviewed venue.
