@@ -17,10 +17,10 @@ theme_set(theme_bw())
 
 #### data
 # If you are not building the calibration seriation, no need to download file "calib"
-calib <- read.csv("./DATA/VEP_calibration_sitecounts.csv",header=T,fileEncoding = 'UTF-8-BOM')
+calib <- read.csv("https://raw.githubusercontent.com/sfield2/NSJ-MV-CeramicSeriation/refs/heads/main/DATA/VEP_calibration_sitecounts.csv",header=T,fileEncoding = 'UTF-8-BOM')
 
 # Sample data derived from published excavation record of Site 5MV499, 5MV866, and 5MV875 (Lister 1964, 1965, 1966).
-df<- read.csv("./DATA/Sample_counts.csv",header=T,fileEncoding = 'UTF-8-BOM')
+df<- read.csv("https://raw.githubusercontent.com/sfield2/NSJ-MV-CeramicSeriation/refs/heads/main/DATA/Sample_counts.csv",header=T,fileEncoding = 'UTF-8-BOM')
 df <- df[,c(1,3:65)]
 
 ######### STEP #1.0: RUN CORRESPONDENCE ANALYSIS ON CALIBRATION DATA ###########
@@ -82,8 +82,8 @@ for(j in 1:10){
 
 ######### STEP #1.2: CALCULATE TYPE PROPORTIONS IN CALIBRATION GROUPS ##########
 #### Can import seriated calibration count data (cal) here if you want
-cal <- read.csv("./DATA/VEP_calibration_groupcounts.csv",header=T,fileEncoding = 'UTF-8-BOM')
-cal <- cal[,4:18]
+cal <- read.csv("https://raw.githubusercontent.com/sfield2/NSJ-MV-CeramicSeriation/refs/heads/main/DATA/VEP_calibration_groupcounts.csv",header=T,fileEncoding = 'UTF-8-BOM')%>%
+.[,4:18]
 cal_allprop <-prop.table(as.matrix(cal),1)*100
 
 ######### STEP #2.0: CALCULATE TOTAL NUMBER OFSHERDS IN SAMPLE DATA ############
